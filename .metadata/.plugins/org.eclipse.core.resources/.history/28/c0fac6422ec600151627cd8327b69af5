@@ -1,0 +1,18 @@
+package com.ktds.hskim;
+
+public class SubstringTest {
+	
+	private void start() {
+		
+		String welcom = "Hello, World!";
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		SubstringTest substringTest = new SubstringTest();
+		substringTest.start();
+	}
+	
+}

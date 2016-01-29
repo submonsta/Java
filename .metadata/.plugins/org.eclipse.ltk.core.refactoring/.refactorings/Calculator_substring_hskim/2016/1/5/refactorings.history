@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ktds.hskim.CalculaotorVO&apos; to &apos;CalculatorVO&apos;&#x0D;&#x0A;- Original project: &apos;Calculator_substring_hskim&apos;&#x0D;&#x0A;- Original element: &apos;com.ktds.hskim.CalculaotorVO&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ktds.hskim.CalculatorVO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CalculaotorVO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ktds.hskim{CalculaotorVO.java[CalculaotorVO" matchStrategy="1" name="CalculatorVO" qualified="false" references="true" similarDeclarations="false" stamp="1454054897695" textual="false" version="1.0"/>
+</session>

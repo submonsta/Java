@@ -1,0 +1,33 @@
+package com.ktds.hskim;
+
+public class SubstringTest {
+	
+	private void start() {
+		
+		String welcome = "Hello, World!";
+		System.out.println(welcome);
+		
+		System.out.println(welcome.length());
+		
+		String world = welcome.substring(7, 13);
+		
+		// 공백의 위치 + 1(다음위치) ~ 길이(끝) 까지 
+		world = welcome.substring(welcome.indexOf(" ") + 1);
+		System.out.println(world);
+		
+		// 처음부터 ,앞 까지 제거
+		String hello = welcome.substring(0, welcome.indexOf(",") );
+		System.out.println(hello);
+		
+		String str = welcome.substring(4, 8);
+		System.out.println(str);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		SubstringTest substringTest = new SubstringTest();
+		substringTest.start();
+	}
+	
+}

@@ -1,0 +1,27 @@
+package com.ktds.hskim;
+
+public class SubstringTest {
+	
+	private void start() {
+		
+		String welcome = "Hello, World!";
+		System.out.println(welcome);
+		
+		System.out.println(welcome.length());
+		
+		String world = welcome.substring(7, 13);
+		
+		// 공백의 위치 ~ 길이(끝) 까지 
+		world = welcome.substring(welcome.indexOf(" ") + 1, welcome.length());
+		System.out.println(world);
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		SubstringTest substringTest = new SubstringTest();
+		substringTest.start();
+	}
+	
+}

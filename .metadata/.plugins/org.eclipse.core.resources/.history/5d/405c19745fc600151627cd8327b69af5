@@ -1,0 +1,9 @@
+package com.ktds.hskim;
+
+public class CalculaotorVO {
+	
+	private String input;
+	
+	
+	
+}
