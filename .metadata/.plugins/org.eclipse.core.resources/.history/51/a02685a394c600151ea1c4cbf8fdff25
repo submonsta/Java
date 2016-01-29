@@ -1,0 +1,31 @@
+package com.ktds.hskim;
+
+public class CalculatorBiz {
+	
+	Input input;
+	CalculatorVO calVO;
+	
+	/**
+	 * 생성자 선언
+	 */
+	public CalculatorBiz () {
+		
+		input = new Input();
+		calVO = new CalculatorVO();
+		
+	} 
+	
+	public void startCal () {
+		
+		System.out.println("Calculator Program" \n);
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}	

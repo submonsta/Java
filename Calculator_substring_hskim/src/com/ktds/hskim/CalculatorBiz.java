@@ -15,9 +15,10 @@ public class CalculatorBiz {
 		
 	} 
 	
-	public startCal () {
+	// TODO 시작 프로그램 생성
+	public void startCal () {
 		
-		System.out.println("Calculator Program" \n);
+		System.out.println("Calculator Program" );
 		
 		
 	}
