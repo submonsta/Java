@@ -93,7 +93,7 @@ public class DateTime {
 	private void printDateMinusDate() {
 		
 		Calendar now = Calendar.getInstance();
-		System.out.println( now.toString() d);
+		System.out.println( now.toString() );
 		
 		Calendar cal = Calendar.getInstance();
 		cal.set(2016, (2-1), 14, 10, 59, 45);
