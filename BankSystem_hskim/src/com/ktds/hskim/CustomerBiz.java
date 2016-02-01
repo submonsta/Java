@@ -304,8 +304,8 @@ public class CustomerBiz {
 		person.setLoan(interestMoney);
 		
 		// 사용자 정보 출력
-		System.out.println("성함 : "+ person.getName() + "님 대출 금액 : " + person.getLoan() + "원");
-		System.out.println("연락처 : " + person.getPhone() + "담보 : " +  person.getSecurity());
+		System.out.println("성함 : "+ person.getName() + "님  대출 금액 : " + person.getLoan() + "원");
+		System.out.println("연락처 : " + person.getPhone() + "   담보 : " +  person.getSecurity());
 		
 	} // checkInterest
 	
